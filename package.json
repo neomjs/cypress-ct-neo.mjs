@@ -1,0 +1,24 @@
+{
+    "name": "cypress-ct-neo.mjs",
+    "version": "0.0.1",
+    "description": "Framework Definition for Cypress and neo.mjs",
+    "exports": {
+        "node": "./definition.cjs",
+        "default": "./index.mjs"
+    },
+    "files": [
+        "package.json",
+        "definition.cjs",
+        "index.mjs"
+    ],
+    "dependencies": {
+        "@cypress/mount-utils": "^4.0.0"
+    },
+    "devDependencies": {
+        "neo.mjs": "^5.10.5"
+    },
+    "peerDependencies": {
+        "cypress": "^12.13.0",
+        "neo.mjs": "^5.10.5"
+    }
+}
