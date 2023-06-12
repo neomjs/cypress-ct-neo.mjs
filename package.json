@@ -1,6 +1,7 @@
 {
     "name": "cypress-ct-neo.mjs",
-    "version": "0.0.2",
+    "type": "module",
+    "version": "0.0.3",
     "description": "Framework Definition for Cypress and neo.mjs",
     "exports": {
         "node": "./definition.cjs",

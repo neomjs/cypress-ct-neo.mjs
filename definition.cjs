@@ -1,4 +1,4 @@
-const { defineFrameworkDefinition } = require('cypress')
+import { defineComponentFramework } from "cypress";
 
 const neoDep = {
     // Unique, semantic identifier.
@@ -21,13 +21,13 @@ const neoDep = {
     description: 'The application worker driven frontend framework',
 
     // Minimum supported version.
-    minVersion: '^5.10.8',
+    minVersion: '^5.10.8'
 }
 
 /**
- * The actual definition.
+ * The definition.
  */
-module.exports = defineFrameworkDefinition({
+export default defineComponentFramework({
     /**
      * This should match the `npm` package name.
      * The convention required to ensure your Definition is processed
