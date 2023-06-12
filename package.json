@@ -15,10 +15,10 @@
         "@cypress/mount-utils": "^4.0.0"
     },
     "devDependencies": {
-        "neo.mjs": "^5.10.5"
+        "neo.mjs": "^5.10.8"
     },
     "peerDependencies": {
-        "cypress": "^12.13.0",
-        "neo.mjs": "^5.10.5"
+        "cypress": "^12.14.0",
+        "neo.mjs": "^5.10.8"
     }
 }
