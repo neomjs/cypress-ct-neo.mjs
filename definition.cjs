@@ -21,7 +21,7 @@ const neoDep = {
     description: 'The application worker driven frontend framework',
 
     // Minimum supported version.
-    minVersion: '^5.10.5',
+    minVersion: '^5.10.8',
 }
 
 /**
